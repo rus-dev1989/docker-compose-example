@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   web:
-    image: "dockertestsolovey.azurecr.io/test1:latest"
+    build: .
     ports:
       - "5000:5000"
   redis:
